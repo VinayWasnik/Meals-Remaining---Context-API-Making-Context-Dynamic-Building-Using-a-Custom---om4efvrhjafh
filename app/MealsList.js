@@ -17,7 +17,7 @@ const MealsList = () => {
                         onChange={() => tickMeal(meal.id)}
                     />
                    
-                    mealName
+                     {meal.name}
                 </li>
             </ul>
         </div>
