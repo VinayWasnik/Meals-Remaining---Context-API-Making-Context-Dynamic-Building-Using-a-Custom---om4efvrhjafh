@@ -16,7 +16,7 @@ const MealsList = () => {
                         checked={meal.ticked || false}
                         onChange={() => tickMeal(meal.id)}
                     />
-                    // mealName
+                    /* MealName */
                     {meal.name}
                 </li>
             </ul>
